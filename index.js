@@ -12,7 +12,7 @@ const posts=[
         post: "Post 1"
     },
     {
-        username: "Anjali",
+        username: "Hanisha",
         post: "Post 2"
     }
 ]
