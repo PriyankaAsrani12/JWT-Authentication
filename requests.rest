@@ -1,0 +1,21 @@
+GET http://localhost:3300/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQW5qYWxpIiwiaWF0IjoxNjE3NjQ3NTYxLCJleHAiOjE2MTc2NDc1OTF9.GticdI5m1bfQxeIquKDRqfQxeGn58EbcPYHEIEUnCK8
+
+
+###
+
+POST http://localhost:3700/token
+Content-Type: application/json
+
+{
+	"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQW5qYWxpIiwiaWF0IjoxNjE3NjQ3ODQ1fQ.m5q8Dv2YrsH203bFKen9pV3K9oDmjJ-xhYxEBs7oFOo"
+}
+
+
+###
+POST http://localhost:3700/login
+Content-Type: application/json
+
+{
+	"username":"Anjali"
+}
